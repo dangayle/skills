@@ -10,7 +10,7 @@ Each skill follows the [Agent Skills specification](https://agentskills.io/speci
 
 | Skill | Description |
 | ----- | ----------- |
-| —     | _No skills yet._ |
+| [skill-authoring](skills/skill-authoring/SKILL.md) | Create, edit, validate, and publish skills in this repository. |
 
 ## Install
 
