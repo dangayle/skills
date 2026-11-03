@@ -11,6 +11,7 @@ Each skill follows the [Agent Skills specification](https://agentskills.io/speci
 | Skill | Description |
 | ----- | ----------- |
 | [skill-authoring](skills/skill-authoring/SKILL.md) | Create, edit, validate, and publish skills in this repository. |
+| [dual-projection-sync](skills/dual-projection-sync/SKILL.md) | Keep specification, implementation, and tests synchronized as three co-equal projections of one contract; reconstruct any missing projection. |
 
 ## Install
 
