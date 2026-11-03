@@ -2,6 +2,8 @@
 name: dual-projection-sync
 description: Keep specification, implementation, and tests synchronized as three co-equal projections of one normative contract, and reconstruct any missing projection. Use when implementing or changing features, writing code or tests, updating an intent/ specification, or auditing a repository for drift between spec, code, and tests. Recover code from spec+tests, tests from spec+code, or spec from code+tests.
 license: MIT
+metadata:
+  source: https://notes.burke.libbey.me/dual-reflections/
 ---
 
 # Dual-Projection Synchronization
@@ -38,6 +40,8 @@ intent/    Normative specification (active contracts, one file per subsystem)
 src/       Implementation projection (code)
 test/      Verification projection (tests)
 ```
+
+> **Provenance.** This skill operationalizes Burke Libbey's ["Code's Dual Reflections"](https://notes.burke.libbey.me/dual-reflections/). The source's three realms — Material, Mental, and Emergent Ideal — are mapped here onto the artifacts an agent can act on: the normative specification (`intent/`) as the durable stand-in for the mental model and the emergent ideal, and the two material projections (code and tests). The recovery axiom is this skill's name for the source's double-helix regeneration; it is a principle of motion between the realms, not a realm itself.
 
 ## Rules of engagement
 
